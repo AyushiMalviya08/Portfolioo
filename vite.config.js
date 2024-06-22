@@ -12,11 +12,11 @@ export default defineConfig({
       external: ['react-icons']
     }
   },
-  css: {
-    postcss: {
-      plugins: [
-        autoprefixer(), // Use autoprefixer in PostCSS plugins
-      ],
-    },
-  },
+  // css: {
+  //   postcss: {
+  //     plugins: [
+  //       autoprefixer(), // Use autoprefixer in PostCSS plugins
+  //     ],
+  //   },
+  // },
 })
